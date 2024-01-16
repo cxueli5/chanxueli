@@ -345,8 +345,8 @@
           </a>
         </button>
         <p>
-          <b style="color:var(--xpurple);">Skills: </b> Svelte · HTML5 · CSS · TailwindCSS
-          · JavaScript
+          <b style="color:var(--xpurple);">Skills: </b> Design Thinking · Interpersonal
+          Skills · Teamwork
         </p>
 
         <!-- photogrid -->
