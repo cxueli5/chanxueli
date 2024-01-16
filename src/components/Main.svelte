@@ -39,7 +39,7 @@
       </p>
       <div class="flex items-center gap-4">
         <a
-          href="pdf/potrait.pdf"
+          href="pdf/ChanXueLi_resume.pdf"
           download
           class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300 focus:outline-none focus:ring focus:ring-blue-300"
         >

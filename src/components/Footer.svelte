@@ -44,11 +44,25 @@
 
         <div class="flex flex-col items-start mt-5 space-y-2">
           <a
-            href={`${base}/pdf/potrait.pdf`}
+            href={`${base}/pdf/ChanXueLi_resume.pdf`}
             download
             class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300 focus:outline-none focus:ring focus:ring-blue-300"
           >
             Download Resume
+          </a>
+        </div>
+        <br>
+        <p class="font-semibold text-gray-800 dark:text-white">
+          Download My Resume (Print Version)
+        </p>
+
+        <div class="flex flex-col items-start mt-5 space-y-2">
+          <a
+            href={`${base}/pdf/ChanXueLi_resume_print_ver.pdf`}
+            download
+            class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300 focus:outline-none focus:ring focus:ring-blue-300"
+          >
+            Download Print Resume
           </a>
         </div>
       </div>
