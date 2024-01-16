@@ -146,7 +146,7 @@ const SchoolProjects = create_ssr_component(($$result, $$props, $$bindings, slot
         },
         {},
         {}
-      )}</div></div> <div class="project-thumbnail svelte-1b9dzyo"> <img${add_attribute("src", `${base}/polyImg/pdf4.png`, 0)} alt="Project Thumbnail" class="svelte-1b9dzyo"> <div class="project-details"><p data-svelte-h="svelte-y7kt0v">Infographic resume design journey</p> <br>  ${validate_component(PDFViewer, "PDFViewer").$$render(
+      )}</div></div> <div class="project-thumbnail svelte-1b9dzyo"> <img${add_attribute("src", `${base}/polyImg/pdf5.png`, 0)} alt="Project Thumbnail" class="svelte-1b9dzyo"> <div class="project-details"><p data-svelte-h="svelte-y7kt0v">Infographic resume design journey</p> <br>  ${validate_component(PDFViewer, "PDFViewer").$$render(
         $$result,
         {
           filePath: `${base}/pdf/pdf5.pdf#toolbar=0`

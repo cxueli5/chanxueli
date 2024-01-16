@@ -471,7 +471,7 @@
 
         <div class="project-thumbnail">
           <!-- Thumbnail image -->
-          <img src={`${base}/polyImg/pdf4.png`} alt="Project Thumbnail" />
+          <img src={`${base}/polyImg/pdf5.png`} alt="Project Thumbnail" />
           <div class="project-details">
             <p>Infographic resume design journey</p>
             <br />
