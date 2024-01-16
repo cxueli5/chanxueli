@@ -51,7 +51,7 @@
             Download Resume
           </a>
         </div>
-        <br>
+        <br />
         <p class="font-semibold text-gray-800 dark:text-white">
           Download My Resume (Print Version)
         </p>
