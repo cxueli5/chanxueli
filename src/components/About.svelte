@@ -265,7 +265,7 @@
     >
       <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
         <h6 class="text-large sm:text-xl md:text-2xl"></h6>
-        Education
+        <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">Education</h3>
       </h3>
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-20 lg:gap-25">
@@ -338,7 +338,7 @@
     >
       <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
         <h6 class="text-large sm:text-xl md:text-2xl"></h6>
-        Achievements
+        <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">Achievements</h3>
       </h3>
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-20 lg:gap-25">
