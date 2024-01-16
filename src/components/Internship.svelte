@@ -331,10 +331,16 @@
             <li>Assist online and in-store sales</li>
           </ul>
           <br />
+          <div class="button-container">
           <ImageViewer
             imagePath={`${base}/testimonials/Bic-Testimonial.jpeg`}
             buttonText={"View Testimonial"}
           />
+          <PDFViewer
+            filePath={`${base}/testimonials/sp_testimonial.pdf#toolbar=0`}
+            buttonText={"View SP Lecturer Testimonial"}
+          />
+          </div>
           <br /> <br />
           <p>
             <b style="color:var(--xpurple);">Skills: </b> Cascading Style Sheets
@@ -488,11 +494,11 @@
 </main>
 
 <style>
-  /* Your CSS styles */
   .button-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
   }
 
   .button {

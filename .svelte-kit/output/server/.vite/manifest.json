@@ -113,12 +113,12 @@
     "src": "src/routes/about-me/+page.svelte"
   },
   "src/routes/internship/+page.css": {
-    "file": "_app/immutable/assets/_page.24ee5d24.css",
+    "file": "_app/immutable/assets/_page.b21cd11f.css",
     "src": "src/routes/internship/+page.css"
   },
   "src/routes/internship/+page.svelte": {
     "css": [
-      "_app/immutable/assets/_page.24ee5d24.css"
+      "_app/immutable/assets/_page.b21cd11f.css"
     ],
     "file": "entries/pages/internship/_page.svelte.js",
     "imports": [
