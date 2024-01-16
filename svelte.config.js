@@ -10,7 +10,7 @@ const config = {
       assets: "docs",
     }),
     paths: {
-      base: dev ? "" : "/testforreal",
+      base: dev ? "" : "/chanxueli",
     },
     prerender: {
       handleHttpError: ({ request, error }) => {

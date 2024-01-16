@@ -1,4 +1,4 @@
-let base = "/testforreal";
+let base = "/chanxueli";
 let assets = base;
 const initial = { base, assets };
 function reset() {
