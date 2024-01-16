@@ -219,7 +219,7 @@
               style="width: fit-content; margin-right: auto; margin-left: auto;"
             >
               <a
-                href="https://www.straitstimes.com/multimedia/graphics/2023/10/arts-calendar-events-singapore/index.html"
+                href="https://www.straitstimes.com/multimedia/graphics/2023/09/the-week-in-pictures-september-25/index.html"
                 target="_blank"
                 rel="noopener noreferrer"
               >
