@@ -40,6 +40,10 @@
       name: "SP Digital Marketing (Module)",
       icon: "fa-solid fa-graduation-cap",
     },
+    {
+      name: "WorthEats",
+      icon: "fa-solid fa-cutlery",
+    },
   ];
 </script>
 
@@ -267,6 +271,49 @@
           <b style="color:var(--xpurple);">Skills: </b> React Native · Firebase ·
           Human Computer Interaction · Prototyping · Usability Testing · Heuristic
           Evaluation · Storyboarding · UX · UI
+        </p>
+      </Step>
+      <Step step={steps[9]}>
+        <p>A project from Professional Software Development module</p>
+        <!-- <button
+          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          style="width: fit-content; margin-right: auto; margin-left: auto;"
+        >
+          <a href="https://www.youtube.com/watch?v=twtxvbZTi-E" target="_blank">
+            Project Demo
+          </a>
+        </button> -->
+        <div class="mobile-responsive-iframe">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/YX39VlK8CCk?si=kl2WRm_Dpu46FWtg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            style="margin-right:auto; margin-left: auto;"
+          ></iframe>
+        </div>
+        <p>
+          My team did a <b style="color:var(--xpeach);">web-application</b>
+          for businesses to list food created from left over / access ingredients
+          at cheaper prices. This helps businesses in the F&B industry to reduce
+          food wastage.
+        </p>
+        <button
+          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          style="width: fit-content; margin-right: auto; margin-left: auto;"
+        >
+          <a
+            href="https://github.com/chanxueli/SIT_CSC2012_PSD_AY2023"
+            target="_blank"
+            >GitHub Link (More information on project in ReadMe)</a
+          >
+        </button>
+        <p>
+          <b style="color:var(--xpurple);">Skills: </b> React · Tailwind CSS · Firebase
+          · Docker · UX · UI · Machine Learning · GitHub
         </p>
       </Step>
     </div>

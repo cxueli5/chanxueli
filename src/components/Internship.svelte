@@ -75,14 +75,14 @@
             </li>
             <li>Publish and maintain weekly discover articles</li>
           </ul>
-          <br />
+          <!-- <br />
           <b style="color: var(--xgreen);">Projects (not shown / no link):</b>
           <br />
           <p>
             <b style="color: var(--xblue);">Taylor Swift 2024</b> - Participated
             in pre-planning stage (Research, UI design, Content planning for mockup),
             Assisted in development of anagram game.
-          </p>
+          </p> -->
           <br />
           <p>
             <b style="color:var(--xpurple);">Skills: </b> Svelte · Adobe Illustrator
@@ -93,6 +93,36 @@
 
         <!-- photogrid -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div class="grid-item">
+            <img
+              src={`${base}/intern/taylor.png`}
+              alt="Taylor Swift SG 2024"
+            /><br />
+            <button
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              style="width: fit-content; margin-right: auto; margin-left: auto;"
+            >
+              <a
+                href="https://youtu.be/outJlK_w6yM?si=KMm0XJ6EkM5ZDbqU"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Taylor Swift 2024 Demo (Work in Progress)
+              </a>
+            </button>
+            <br /><br />
+            <ul
+              class="circle-bullet-list"
+              style="width: 300px; margin-right:auto; margin-left:auto;"
+            >
+              <li>
+                Participated in pre-planning stage (Research, UI design, Content
+                planning for mockup)
+              </li>
+              <li>Assisted in development of anagram game</li>
+              <li>Develop all pages except result page</li>
+            </ul>
+          </div>
           <div class="grid-item">
             <img
               src={`${base}/intern/arts-analysis.jpg`}
@@ -332,14 +362,14 @@
           </ul>
           <br />
           <div class="button-container">
-          <ImageViewer
-            imagePath={`${base}/testimonials/Bic-Testimonial.jpeg`}
-            buttonText={"View Testimonial"}
-          />
-          <PDFViewer
-            filePath={`${base}/testimonials/sp_testimonial.pdf#toolbar=0`}
-            buttonText={"View SP Lecturer Testimonial"}
-          />
+            <ImageViewer
+              imagePath={`${base}/testimonials/Bic-Testimonial.jpeg`}
+              buttonText={"View Testimonial"}
+            />
+            <PDFViewer
+              filePath={`${base}/testimonials/sp_testimonial.pdf#toolbar=0`}
+              buttonText={"View SP Lecturer Testimonial"}
+            />
           </div>
           <br /> <br />
           <p>

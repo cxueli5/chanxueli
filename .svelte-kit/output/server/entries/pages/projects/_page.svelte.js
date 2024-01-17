@@ -44,6 +44,10 @@ const SchoolProjects = create_ssr_component(($$result, $$props, $$bindings, slot
     {
       name: "SP Digital Marketing (Module)",
       icon: "fa-solid fa-graduation-cap"
+    },
+    {
+      name: "WorthEats",
+      icon: "fa-solid fa-cutlery"
     }
   ];
   $$result.css.add(css);
@@ -93,6 +97,14 @@ const SchoolProjects = create_ssr_component(($$result, $$props, $$bindings, slot
           <b style="color: var(--xgreen);">search for patients and endoscopies from their respective databases</b>.</p> <p data-svelte-h="svelte-np8yz3"><b style="color:var(--xpurple);">Skills:</b> React Native · Firebase ·
           Human Computer Interaction · Prototyping · Usability Testing · Heuristic
           Evaluation · Storyboarding · UX · UI</p>`;
+    }
+  })} ${validate_component(Step, "Step").$$render($$result, { step: steps[9] }, {}, {
+    default: () => {
+      return `<p data-svelte-h="svelte-11gddft">A project from Professional Software Development module</p>  <div class="mobile-responsive-iframe svelte-1b9dzyo" data-svelte-h="svelte-ppvwkb"><iframe width="560" height="315" src="https://www.youtube.com/embed/YX39VlK8CCk?si=kl2WRm_Dpu46FWtg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="margin-right:auto; margin-left: auto;" class="svelte-1b9dzyo"></iframe></div> <p data-svelte-h="svelte-12c3t8e">My team did a <b style="color:var(--xpeach);">web-application</b>
+          for businesses to list food created from left over / access ingredients
+          at cheaper prices. This helps businesses in the F&amp;B industry to reduce
+          food wastage.</p> <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" style="width: fit-content; margin-right: auto; margin-left: auto;" data-svelte-h="svelte-13vayyz"><a href="https://github.com/chanxueli/SIT_CSC2012_PSD_AY2023" target="_blank">GitHub Link (More information on project in ReadMe)</a></button> <p data-svelte-h="svelte-mcv74o"><b style="color:var(--xpurple);">Skills:</b> React · Tailwind CSS · Firebase
+          · Docker · UX · UI · Machine Learning · GitHub</p>`;
     }
   })}</div>  <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4" data-svelte-h="svelte-the2gu"><h6 class="text-large sm:text-xl md:text-2xl">Business Information Technology (Relevant)</h6> <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl"><span class="poppins text-violet-400">Polytechnic</span> Projects</h3></div> <div class="grid grid-cols-1 lg:grid-cols-1 gap-20 lg:gap-25">${validate_component(Step, "Step").$$render($$result, { step: steps[5] }, {}, {
     default: () => {
