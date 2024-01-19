@@ -53,7 +53,7 @@
       <Step step={steps[0]}>
         <p>
           <b style="color: var(--xpeach);">
-            Data Viz Intern (Developer, Straits Times Digigraphics)
+            Data Visualisation Developer Intern (The Straits Times Digigraphics)
           </b>
           |
           <b style="color: var(--xblue);">Aug 2023 - Apr 2024 (8 months)</b>
