@@ -1,5 +1,4 @@
 import { c as create_ssr_component, b as add_attribute, e as escape, d as null_to_empty } from "./ssr.js";
-const Step_svelte_svelte_type_style_lang = "";
 const css = {
   code: ".icon-image.svelte-18x6r3h{width:fit-content;height:100px}",
   map: null

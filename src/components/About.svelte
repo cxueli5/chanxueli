@@ -117,7 +117,7 @@
           diploma and graduated with a Bachelor's degree with honors in
           <b style="color: var(--xblue);">Computing Science</b>. I aim to
           specialise in
-          <b style="color: var(--xpeach);">frontend development</b>,
+          <b style="color: var(--xpeach);">software development</b>,
           <b style="color: var(--xpurple);">UI/UX design</b>, and
           <b style="color: var(--xgreen);">digital marketing</b>. <br /><br />I
           am driven by curiosity, always questioning the 'why' and 'how' of the

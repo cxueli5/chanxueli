@@ -73,6 +73,10 @@
               Collaborate with designers for UI design, pre-planning stage such
               as: research, ideation and content planning for mockups
             </li>
+            <li>
+              Practice good use of dynamic programming skills for easier
+              maintenance of sites in the long-run
+            </li>
             <li>Publish and maintain weekly discover articles</li>
           </ul>
           <!-- <br />

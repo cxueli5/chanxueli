@@ -27,15 +27,14 @@
       </h2>
       <p class="text-base sm:text-lg md:text-xl" style="text-align: justify;">
         My keen interest lies in
-        <b style="color: var(--xpeach);">frontend development</b>,
+        <b style="color: var(--xpeach);">software development</b>,
         <b style="color: var(--xpurple);">UI/UX design</b>, and
         <b style="color: var(--xgreen);">digital marketing</b>.
         <b
           style="background: linear-gradient(to right, var(--xpink), var(--xpurple), var(--xpeach), var(--xyellow), var(--xgreen), var(--xblue)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
           >A fun fact about this site:</b
         >
-        It's coded in Svelte, a skill I picked up during my internship. Let's connect
-        and explore together!
+        It's coded in Svelte, a skill I picked up during my internship. <b style="color: var(--xred);">Actively looking for full-time job opportunities for fresh grads (Sep 2024), let's connect and chat!</b>
       </p>
       <div class="flex items-center gap-4">
         <a
