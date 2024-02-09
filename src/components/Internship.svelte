@@ -92,6 +92,7 @@
             <b style="color:var(--xpurple);">Skills: </b> Svelte · Adobe Illustrator
             · Adobe XD · Adobe Photoshop · GitHub · UI Design · NodeJS · JavaScript
             · HTML5 · CSS · Microsoft Excel · Interpersonal Skills · Team Collaboration
+            · Data Visualization · Interactive Storytelling · Visual Storytelling
           </p>
         </div>
 
