@@ -1,21 +1,7 @@
-import { c as create_ssr_component, e as escape, v as validate_component, b as add_attribute } from "../../../chunks/ssr.js";
+import { c as create_ssr_component, v as validate_component, b as add_attribute } from "../../../chunks/ssr.js";
 import { b as base } from "../../../chunks/paths.js";
 import { S as Step } from "../../../chunks/Step.js";
-import { P as PDFViewer } from "../../../chunks/PDFViewer.js";
-const css$1 = {
-  code: ".image-preview.svelte-2xfb09.svelte-2xfb09{max-width:100%;text-align:center;position:relative}.image-preview.svelte-2xfb09 img.svelte-2xfb09{max-width:100%;max-height:100%}.view-image-btn.svelte-2xfb09.svelte-2xfb09{background-color:#4285f4;color:white;padding:10px 20px;border:none;border-radius:5px;font-weight:bold;cursor:pointer;transition:background-color 0.3s ease}.view-image-btn.svelte-2xfb09.svelte-2xfb09:hover{background-color:lightblue;color:black}.close-image-btn.svelte-2xfb09.svelte-2xfb09{background-color:#ea4335;color:white;position:absolute;top:10px;right:10px;padding:8px 15px;cursor:pointer;border:none;border-radius:5px;transition:background-color 0.3s ease}.close-image-btn.svelte-2xfb09.svelte-2xfb09:hover{background-color:#ff6659}@media screen and (max-width: 768px){.image-preview.svelte-2xfb09.svelte-2xfb09{margin:0 auto}}",
-  map: null
-};
-const ImageViewer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  let { imagePath } = $$props;
-  let { buttonText = "View PDF" } = $$props;
-  if ($$props.imagePath === void 0 && $$bindings.imagePath && imagePath !== void 0)
-    $$bindings.imagePath(imagePath);
-  if ($$props.buttonText === void 0 && $$bindings.buttonText && buttonText !== void 0)
-    $$bindings.buttonText(buttonText);
-  $$result.css.add(css$1);
-  return `${` <button class="view-image-btn svelte-2xfb09">${escape(buttonText)}</button>`}`;
-});
+import { P as PDFViewer, I as ImageViewer } from "../../../chunks/ImageViewer.js";
 const css = {
   code: '.button-container.svelte-zw28j2.svelte-zw28j2{display:flex;flex-direction:column;align-items:center;gap:10px}@media(min-width: 768px){.button-container.svelte-zw28j2.svelte-zw28j2{flex-direction:row;justify-content:center}}@media screen and (max-width: 768px){}.circle-bullet-list.svelte-zw28j2.svelte-zw28j2{list-style-type:none;padding-left:10px;text-align:left}.circle-bullet-list.svelte-zw28j2 li.svelte-zw28j2::before{content:"\\2022";color:white;font-weight:bold;display:inline-block;width:1em;margin-left:-1em}#internContent.svelte-zw28j2.svelte-zw28j2{max-width:600px;margin:0 auto}@media screen and (max-width: 768px){.circle-bullet-list.svelte-zw28j2.svelte-zw28j2{padding-left:0px}#internContent.svelte-zw28j2.svelte-zw28j2{max-width:100%;padding:0 20px}}',
   map: null
