@@ -53,7 +53,7 @@ const SchoolProjects = create_ssr_component(($$result, $$props, $$bindings, slot
   return `${$$result.head += `<!-- HEAD_svelte-1en3a0b_START -->${$$result.title = `<title>Projects</title>`, ""}<!-- HEAD_svelte-1en3a0b_END -->`, ""} <main class="flex flex-col flex-1 p-4"> <section class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative" id="projects"> <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4" data-svelte-h="svelte-1xiutnn"><h6 class="text-large sm:text-xl md:text-2xl">By Me</h6> <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl"><span class="poppins text-violet-400">Personal</span> Projects</h3></div> <div class="grid grid-cols-1 lg:grid-cols-1 gap-20 lg:gap-25">${validate_component(Step, "Step").$$render($$result, { step: steps[0] }, {}, {
     default: () => {
       return `<p data-svelte-h="svelte-5foxnu">Took part in this bootcamp to enhance my frontend development skills.
-          My group achieved <b style="color: var(--xpink);">2nd best user experience</b>.</p>   <div class="mobile-responsive-iframe svelte-1b9dzyo" data-svelte-h="svelte-wyrjb6"><iframe width="560" height="315" src="https://www.youtube.com/embed/FkEoiOE0eqQ?si=dfsev3Le7rOfpWDA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="margin-right:auto; margin-left:auto;" class="svelte-1b9dzyo"></iframe></div> ${validate_component(ImageViewer, "ImageViewer").$$render(
+          My group achieved <b style="color: var(--xpink);">2nd best user experience</b>.</p>   <div class="mobile-responsive-iframe svelte-1b9dzyo" data-svelte-h="svelte-wyrjb6"><iframe width="560" height="315" src="https://www.youtube.com/embed/FkEoiOE0eqQ?si=dfsev3Le7rOfpWDA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="margin-right:auto; margin-left:auto;" class="svelte-1b9dzyo"></iframe></div> <div class="button-container svelte-1b9dzyo">${validate_component(ImageViewer, "ImageViewer").$$render(
         $$result,
         {
           imagePath: `${base}/testimonials/tiktok_2ndbest.jpeg`,
@@ -61,7 +61,7 @@ const SchoolProjects = create_ssr_component(($$result, $$props, $$bindings, slot
         },
         {},
         {}
-      )} <p data-svelte-h="svelte-1bu26eh"><b style="color: var(--xpeach);">My role in the team</b> (highlight):
+      )}</div> <p data-svelte-h="svelte-1bu26eh"><b style="color: var(--xpeach);">My role in the team</b> (highlight):
           <br>
           Developed telebot game for the game web application for the first time
           using node.js, used GitHub for collaboration and Heroku for deployment.

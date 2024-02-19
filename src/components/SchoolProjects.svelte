@@ -96,10 +96,12 @@
             style="margin-right:auto; margin-left:auto;"
           ></iframe>
         </div>
-        <ImageViewer
-          imagePath={`${base}/testimonials/tiktok_2ndbest.jpeg`}
-          buttonText={"2nd Best User Experience"}
-        />
+        <div class="button-container">
+          <ImageViewer
+            imagePath={`${base}/testimonials/tiktok_2ndbest.jpeg`}
+            buttonText={"2nd Best User Experience"}
+          />
+        </div>
         <p>
           <b style="color: var(--xpeach);">My role in the team</b> (highlight):
           <br />
