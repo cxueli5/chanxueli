@@ -100,7 +100,7 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div class="grid-item">
             <img
-              src={`${base}/intern/taylor.png`}
+              src={`${base}/intern/taylor2.jpg`}
               alt="Taylor Swift SG 2024"
             /><br />
             <button
@@ -108,11 +108,11 @@
               style="width: fit-content; margin-right: auto; margin-left: auto;"
             >
               <a
-                href="https://youtu.be/outJlK_w6yM?si=KMm0XJ6EkM5ZDbqU"
+                href="https://www.straitstimes.com/multimedia/graphics/2024/03/taylor-swift-eras-quiz/index.html"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Taylor Swift 2024 Demo (Work in Progress)
+                Taylor Swift Quiz 2024
               </a>
             </button>
             <br /><br />
@@ -125,7 +125,7 @@
                 planning for mockup)
               </li>
               <li>Assisted in development of anagram game</li>
-              <li>Develop all pages except result page</li>
+              <li>Develop all pages in terms of overall styles, custom components such as heart progress bar etc.</li>
             </ul>
           </div>
           <div class="grid-item">
