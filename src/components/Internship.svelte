@@ -120,12 +120,33 @@
               class="circle-bullet-list"
               style="width: 300px; margin-right:auto; margin-left:auto;"
             >
+              <li>Fully involved and participated in all stages of projects</li>
               <li>
-                Participated in pre-planning stage (Research, UI design, Content
-                planning for mockup)
+                <b>Pre-planning:</b> Research on Taylor Swift and interactive games
+                with friendship bracelets concept, actively contributed ideas to
+                enhance UI and UX experience for the game (in all stages of project)
               </li>
-              <li>Assisted in development of anagram game</li>
-              <li>Develop all pages in terms of overall styles, custom components such as heart progress bar etc.</li>
+              <li>
+                Developed all pages including styles, custom components such as
+                heart progress bar, reveal answers etc.
+              </li>
+              <li>
+                Assisted development and testing of anagram game logic and
+                results bar UI
+              </li>
+              <li>
+                Actively participated in all team meetings related to this
+                project, and contributed my opinions and thoughts on issues
+                raised
+              </li>
+              <li>
+                Represent team to update project progress during weekly meetings
+                when team lead is not available
+              </li>
+              <li>
+                Published project and did the necessary post publish
+                communications with other department
+              </li>
             </ul>
           </div>
           <div class="grid-item">
@@ -146,10 +167,34 @@
               </a>
             </button>
             <br /><br />
-            <p>
+            <ul
+              class="circle-bullet-list"
+              style="width: 300px; margin-right:auto; margin-left:auto;"
+            >
+              <li>
+                Developed scrolly template for designers / journalists to
+                customize and adjust zoom levels
+              </li>
+              <li>
+                Communicated with designers and understand journalists workflow
+                from full-timers, to ensure that longform is designed for easy
+                use especially for non-tech savvy users
+              </li>
+              <li>
+                Actively communicated with international and local developers to
+                understand how longform and custom svelte components work
+                together as part of self-learning process
+              </li>
+              <li>
+                This project helped me to work more effectively and efficiently
+                for future projects, and taught new interns how the code
+                workflow works
+              </li>
+            </ul>
+            <!-- <p>
               Developed template for designers to adjust zoom levels, Tested
               with landscape, potrait and svg artworks.
-            </p>
+            </p> -->
           </div>
           <div class="grid-item">
             <img src={`${base}/intern/food.jpg`} alt="Food in your hood" /><br
@@ -171,13 +216,21 @@
               class="circle-bullet-list"
               style="width: 300px; margin-right:auto; margin-left:auto;"
             >
-              <li>Assisted development works (from end Aug 2023)</li>
+              <li>
+                Assisted development works (from end Aug 2023, took over as the
+                development intern working on project in early Nov 2023) which
+                expediated project progress
+              </li>
               <li>Styling (overall website)</li>
               <li>
                 Create custom components (Image Slider, Food label, Custom
                 buttons, Custom props to hide show content etc.)
               </li>
               <li>Spreadsheet database maintainence</li>
+              <li>
+                Attended meetings with food project team and food journalists on
+                UI changes and content workflow changes
+              </li>
             </ul>
           </div>
           <div class="grid-item">
@@ -198,10 +251,20 @@
               </a>
             </button>
             <br /><br />
-            <p>
+            <ul
+              class="circle-bullet-list"
+              style="width: 300px; margin-right:auto; margin-left:auto;"
+            >
+              <li>
+                Development Works (Explored old template on my own and adjusted
+                current template to get desired context card as requested by
+                designers)
+              </li>
+            </ul>
+            <!-- <p>
               Development Works (Adjust current template to get desired context
               card)
-            </p>
+            </p> -->
           </div>
           <div class="grid-item">
             <img
@@ -240,12 +303,29 @@
             <br /><br />
             <p><b style="color: var(--xpink);">Weekly Discover Task</b></p>
             <br />
-            <p>
+            <ul
+              class="circle-bullet-list"
+              style="width: 300px; margin-right:auto; margin-left:auto;"
+            >
+              <li>
+                Designed newsletter thumbnail using Adobe Illustrator and cover
+                image using Adobe Photoshop
+              </li>
+              <li>
+                Communicate with designers and make the necessary changes to the
+                newsletter image and cover image
+              </li>
+              <li>
+                Assisted designers and artists with content input and deployment
+                to publish on The Straits Times
+              </li>
+            </ul>
+            <!-- <p>
               Designed newsletter thumbnail using Adobe Illustrator and cover
               image using Adobe Photoshop, <br /><br />Assisted designers and
               artists with content input and deployment to publish on The
               Straits Times
-            </p>
+            </p> -->
           </div>
           <div class="grid-item">
             <img src={`${base}/intern/wip.jpg`} alt="Week in Pictures" /><br />
@@ -264,11 +344,21 @@
             <br /><br />
             <p><b style="color: var(--xpink);">Weekly Discover Task</b></p>
             <br />
-            <p>
+            <ul
+              class="circle-bullet-list"
+              style="width: 300px; margin-right:auto; margin-left:auto;"
+            >
+              <li>Designed newsletter blurb using Adobe Illustrator</li>
+              <li>
+                Assist journalists to update content and deployment to publish
+                on Straits Times
+              </li>
+            </ul>
+            <!-- <p>
               Designed newsletter blurb using Adobe Illustrator, <br /><br />
               Assist journalists to update content and deployment to publish on Straits
               Times
-            </p>
+            </p> -->
           </div>
         </div>
       </Step>
@@ -663,5 +753,9 @@
       max-width: 100%; /* Full width for skills section on smaller screens */
       padding: 0 20px; /* Add padding for consistent sizing */
     }
+  }
+
+  li {
+    padding-bottom: 10px;
   }
 </style>
