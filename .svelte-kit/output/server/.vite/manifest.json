@@ -98,7 +98,7 @@
   },
   "src/routes/internship/+page.svelte": {
     "css": [
-      "_app/immutable/assets/_page.9C2XsXQ4.css"
+      "_app/immutable/assets/_page.tfWYAITk.css"
     ],
     "file": "entries/pages/internship/_page.svelte.js",
     "imports": [
