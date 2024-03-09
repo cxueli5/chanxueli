@@ -169,6 +169,9 @@
     <br />
     <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
       <div class="grid-item">
+        <img src={`${base}/likes/like6.jpeg`} alt="Kpop concert" />
+      </div>
+      <div class="grid-item">
         <img src={`${base}/likes/like1.jpeg`} alt="Kpop concert" />
       </div>
       <div class="grid-item">
