@@ -78,26 +78,72 @@
               maintenance of sites in the long-run
             </li>
             <li>Publish and maintain weekly discover articles</li>
+            <li>
+              Led and taught new interns on general workflow and code workflow,
+              curated tutorials based on non-developers feedback so that they
+              can understand technical concepts such as how to use GitHub etc.
+            </li>
           </ul>
           <!-- <br />
-          <b style="color: var(--xgreen);">Projects (not shown / no link):</b>
-          <br />
-          <p>
-            <b style="color: var(--xblue);">Taylor Swift 2024</b> - Participated
-            in pre-planning stage (Research, UI design, Content planning for mockup),
-            Assisted in development of anagram game.
-          </p> -->
+            <b style="color: var(--xgreen);">Projects (not shown / no link):</b>
+            <br />
+            <p>
+              <b style="color: var(--xblue);">Taylor Swift 2024</b> - Participated
+              in pre-planning stage (Research, UI design, Content planning for mockup),
+              Assisted in development of anagram game.
+            </p> -->
           <br />
           <p>
             <b style="color:var(--xpurple);">Skills: </b> Svelte · Adobe Illustrator
             · Adobe XD · Adobe Photoshop · GitHub · UI Design · NodeJS · JavaScript
-            · HTML5 · CSS · Microsoft Excel · Interpersonal Skills · Team Collaboration
+            · HTML5 · CSS / SCSS · JSON · Figma · Adobe XD · Canva · Microsoft Excel
+            · ArchieML (Google Doc Longform) · Interpersonal Skills · Team Collaboration
             · Data Visualization · Interactive Storytelling · Visual Storytelling
           </p>
         </div>
 
         <!-- photogrid -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div class="grid-item">
+            <img
+              src={`${base}/intern/pmlee.jpg`}
+              alt="PM Lee 20 Years in Office"
+            /><br />
+            <button
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              style="width: fit-content; margin-right: auto; margin-left: auto;"
+            >
+              <a
+                href="https://youtu.be/vIptxoELZXw?si=NMf5zelt0BrpiJGP"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                PM Lee Handover Demo Link (Initial Stage)
+              </a>
+            </button>
+            <br /><br />
+            <ul
+              class="circle-bullet-list"
+              style="width: auto; margin-right:auto; margin-left:auto;"
+            >
+              <li>
+                Kickstarted project by studying an old project template to reuse
+                for this project
+              </li>
+              <li>
+                Modified old project template code and file structure by
+                removing redundant files for easier maintainence
+              </li>
+              <li>
+                Aliased with local and international designers to deliver
+                template based on the Figma design given to me
+              </li>
+              <li>
+                Participated in initial development stages to prepare project
+                template for journalists to input the story at a later stage
+              </li>
+            </ul>
+          </div>
           <div class="grid-item">
             <img
               src={`${base}/intern/taylor2.jpg`}
@@ -118,7 +164,7 @@
             <br /><br />
             <ul
               class="circle-bullet-list"
-              style="width: 300px; margin-right:auto; margin-left:auto;"
+              style="width: auto; margin-right:auto; margin-left:auto;"
             >
               <li>Fully involved and participated in all stages of projects</li>
               <li>
@@ -169,7 +215,7 @@
             <br /><br />
             <ul
               class="circle-bullet-list"
-              style="width: 300px; margin-right:auto; margin-left:auto;"
+              style="width: auto; margin-right:auto; margin-left:auto;"
             >
               <li>
                 Developed scrolly template for designers / journalists to
@@ -192,9 +238,9 @@
               </li>
             </ul>
             <!-- <p>
-              Developed template for designers to adjust zoom levels, Tested
-              with landscape, potrait and svg artworks.
-            </p> -->
+                Developed template for designers to adjust zoom levels, Tested
+                with landscape, potrait and svg artworks.
+              </p> -->
           </div>
           <div class="grid-item">
             <img src={`${base}/intern/food.jpg`} alt="Food in your hood" /><br
@@ -214,7 +260,7 @@
             <br /><br />
             <ul
               class="circle-bullet-list"
-              style="width: 300px; margin-right:auto; margin-left:auto;"
+              style="width: auto; margin-right:auto; margin-left:auto;"
             >
               <li>
                 Assisted development works (from end Aug 2023, took over as the
@@ -232,6 +278,47 @@
                 UI changes and content workflow changes
               </li>
             </ul>
+          </div>
+          <div class="grid-item">
+            <img
+              src={`${base}/intern/sgincolours.jpg`}
+              alt="Sg in colours explainer"
+            /><br />
+            <button
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              style="width: fit-content; margin-right: auto; margin-left: auto;"
+            >
+              <a
+                href="https://www.straitstimes.com/multimedia/graphics/2024/03/singapore-in-colour-explainer/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                SG in Colours Explainer Link
+              </a>
+            </button>
+            <br /><br />
+            <ul
+              class="circle-bullet-list"
+              style="width: auto; margin-right:auto; margin-left:auto;"
+            >
+              <li>
+                Developed article to showcase the behind the scenes and
+                technologies used in an old project (Singapore in Colours)
+              </li>
+              <li>
+                Arranged meetings with members who worked on Singapore in
+                Colours, and assisted in doing this write up to explain the
+                behind the scenes of Singapore in Colours
+              </li>
+              <li>
+                Actively communicated with supervisor to ensure that article is
+                ready for publication
+              </li>
+            </ul>
+            <!-- <p>
+                Development Works (Adjust current template to get desired context
+                card)
+              </p> -->
           </div>
           <div class="grid-item">
             <img
@@ -253,7 +340,7 @@
             <br /><br />
             <ul
               class="circle-bullet-list"
-              style="width: 300px; margin-right:auto; margin-left:auto;"
+              style="width: auto; margin-right:auto; margin-left:auto;"
             >
               <li>
                 Development Works (Explored old template on my own and adjusted
@@ -262,9 +349,9 @@
               </li>
             </ul>
             <!-- <p>
-              Development Works (Adjust current template to get desired context
-              card)
-            </p> -->
+                Development Works (Adjust current template to get desired context
+                card)
+              </p> -->
           </div>
           <div class="grid-item">
             <img
@@ -287,6 +374,42 @@
             <p>Assisted with styling, UI enhancement, update of events</p>
           </div>
           <div class="grid-item">
+            <img
+              src={`${base}/intern/hif.jpg`}
+              alt="Tides of change: One last look at Senoko Fishery Port"
+            /><br />
+            <button
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              style="width: fit-content; margin-right: auto; margin-left: auto;"
+            >
+              <a
+                href="https://www.straitstimes.com/multimedia/graphics/2024/03/senoko-fishery-port-singapore/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Home in Focus Link
+              </a>
+            </button>
+            <br /><br />
+            <ul
+              class="circle-bullet-list"
+              style="width: auto; margin-right:auto; margin-left:auto;"
+            >
+              <li>Designed newsletter thumbnail using Adobe Illustrator</li>
+              <li>
+                Aliased with photojournalists to translate their story to online
+                article, and prepare story for publication to The Straits Times
+                site
+              </li>
+            </ul>
+            <!-- <p>
+                Designed newsletter thumbnail using Adobe Illustrator and cover
+                image using Adobe Photoshop, <br /><br />Assisted designers and
+                artists with content input and deployment to publish on The
+                Straits Times
+              </p> -->
+          </div>
+          <div class="grid-item">
             <img src={`${base}/intern/cartoons.jpg`} alt="Cartoons" /><br />
             <button
               class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
@@ -305,7 +428,7 @@
             <br />
             <ul
               class="circle-bullet-list"
-              style="width: 300px; margin-right:auto; margin-left:auto;"
+              style="width: auto; margin-right:auto; margin-left:auto;"
             >
               <li>
                 Designed newsletter thumbnail using Adobe Illustrator and cover
@@ -321,11 +444,11 @@
               </li>
             </ul>
             <!-- <p>
-              Designed newsletter thumbnail using Adobe Illustrator and cover
-              image using Adobe Photoshop, <br /><br />Assisted designers and
-              artists with content input and deployment to publish on The
-              Straits Times
-            </p> -->
+                Designed newsletter thumbnail using Adobe Illustrator and cover
+                image using Adobe Photoshop, <br /><br />Assisted designers and
+                artists with content input and deployment to publish on The
+                Straits Times
+              </p> -->
           </div>
           <div class="grid-item">
             <img src={`${base}/intern/wip.jpg`} alt="Week in Pictures" /><br />
@@ -346,7 +469,7 @@
             <br />
             <ul
               class="circle-bullet-list"
-              style="width: 300px; margin-right:auto; margin-left:auto;"
+              style="width: auto; margin-right:auto; margin-left:auto;"
             >
               <li>Designed newsletter blurb using Adobe Illustrator</li>
               <li>
@@ -355,10 +478,10 @@
               </li>
             </ul>
             <!-- <p>
-              Designed newsletter blurb using Adobe Illustrator, <br /><br />
-              Assist journalists to update content and deployment to publish on Straits
-              Times
-            </p> -->
+                Designed newsletter blurb using Adobe Illustrator, <br /><br />
+                Assist journalists to update content and deployment to publish on Straits
+                Times
+              </p> -->
           </div>
         </div>
       </Step>
