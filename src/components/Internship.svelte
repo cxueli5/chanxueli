@@ -97,7 +97,7 @@
             filePath={`${base}/testimonials/xue-li-testimonial.pdf#toolbar=0`}
             buttonText={"View Testimonial"}
           />
-          <br /><br />
+          <br><br>
           <p>
             <b style="color:var(--xpurple);">Skills: </b> Svelte · Adobe Illustrator
             · Adobe XD · Adobe Photoshop · GitHub · UI Design · NodeJS · JavaScript
@@ -389,6 +389,42 @@
             >
               <a
                 href="https://www.straitstimes.com/multimedia/graphics/2024/03/senoko-fishery-port-singapore/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Home in Focus Link
+              </a>
+            </button>
+            <br /><br />
+            <ul
+              class="circle-bullet-list"
+              style="width: auto; margin-right:auto; margin-left:auto;"
+            >
+              <li>Designed newsletter thumbnail using Adobe Illustrator</li>
+              <li>
+                Aliased with photojournalists to translate their story to online
+                article, and prepare story for publication to The Straits Times
+                site
+              </li>
+            </ul>
+            <!-- <p>
+                Designed newsletter thumbnail using Adobe Illustrator and cover
+                image using Adobe Photoshop, <br /><br />Assisted designers and
+                artists with content input and deployment to publish on The
+                Straits Times
+              </p> -->
+          </div>
+          <div class="grid-item">
+            <img
+              src={`${base}/intern/hif-jtc.jpg`}
+              alt="Building bridges: Improving connectivity in Jurong West with this new overhead bridge"
+            /><br />
+            <button
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              style="width: fit-content; margin-right: auto; margin-left: auto;"
+            >
+              <a
+                href="https://www.straitstimes.com/multimedia/graphics/2024/04/overhead-bridge-jurong-west-singapore/index.html"
                 target="_blank"
                 rel="noopener noreferrer"
               >
