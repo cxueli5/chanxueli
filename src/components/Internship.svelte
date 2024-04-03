@@ -379,78 +379,6 @@
             <p>Assisted with styling, UI enhancement, update of events</p>
           </div>
           <div class="grid-item">
-            <img
-              src={`${base}/intern/hif.jpg`}
-              alt="Tides of change: One last look at Senoko Fishery Port"
-            /><br />
-            <button
-              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-              style="width: fit-content; margin-right: auto; margin-left: auto;"
-            >
-              <a
-                href="https://www.straitstimes.com/multimedia/graphics/2024/03/senoko-fishery-port-singapore/index.html"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Home in Focus Link
-              </a>
-            </button>
-            <br /><br />
-            <ul
-              class="circle-bullet-list"
-              style="width: auto; margin-right:auto; margin-left:auto;"
-            >
-              <li>Designed newsletter thumbnail using Adobe Illustrator</li>
-              <li>
-                Aliased with photojournalists to translate their story to online
-                article, and prepare story for publication to The Straits Times
-                site
-              </li>
-            </ul>
-            <!-- <p>
-                Designed newsletter thumbnail using Adobe Illustrator and cover
-                image using Adobe Photoshop, <br /><br />Assisted designers and
-                artists with content input and deployment to publish on The
-                Straits Times
-              </p> -->
-          </div>
-          <div class="grid-item">
-            <img
-              src={`${base}/intern/hif-jtc.jpg`}
-              alt="Building bridges: Improving connectivity in Jurong West with this new overhead bridge"
-            /><br />
-            <button
-              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-              style="width: fit-content; margin-right: auto; margin-left: auto;"
-            >
-              <a
-                href="https://www.straitstimes.com/multimedia/graphics/2024/04/overhead-bridge-jurong-west-singapore/index.html"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Home in Focus Link
-              </a>
-            </button>
-            <br /><br />
-            <ul
-              class="circle-bullet-list"
-              style="width: auto; margin-right:auto; margin-left:auto;"
-            >
-              <li>Designed newsletter thumbnail using Adobe Illustrator</li>
-              <li>
-                Aliased with photojournalists to translate their story to online
-                article, and prepare story for publication to The Straits Times
-                site
-              </li>
-            </ul>
-            <!-- <p>
-                Designed newsletter thumbnail using Adobe Illustrator and cover
-                image using Adobe Photoshop, <br /><br />Assisted designers and
-                artists with content input and deployment to publish on The
-                Straits Times
-              </p> -->
-          </div>
-          <div class="grid-item">
             <img src={`${base}/intern/cartoons.jpg`} alt="Cartoons" /><br />
             <button
               class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
@@ -522,6 +450,78 @@
                 Designed newsletter blurb using Adobe Illustrator, <br /><br />
                 Assist journalists to update content and deployment to publish on Straits
                 Times
+              </p> -->
+          </div>
+          <div class="grid-item">
+            <img
+              src={`${base}/intern/hif2.jpg`}
+              alt="Tides of change: One last look at Senoko Fishery Port"
+            /><br />
+            <button
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              style="width: fit-content; margin-right: auto; margin-left: auto;"
+            >
+              <a
+                href="https://www.straitstimes.com/multimedia/graphics/2024/03/senoko-fishery-port-singapore/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Home in Focus Link
+              </a>
+            </button>
+            <br /><br />
+            <ul
+              class="circle-bullet-list"
+              style="width: auto; margin-right:auto; margin-left:auto;"
+            >
+              <li>Designed newsletter thumbnail using Adobe Illustrator</li>
+              <li>
+                Aliased with photojournalists to translate their story to online
+                article, and prepare story for publication to The Straits Times
+                site
+              </li>
+            </ul>
+            <!-- <p>
+                Designed newsletter thumbnail using Adobe Illustrator and cover
+                image using Adobe Photoshop, <br /><br />Assisted designers and
+                artists with content input and deployment to publish on The
+                Straits Times
+              </p> -->
+          </div>
+          <div class="grid-item">
+            <img
+              src={`${base}/intern/hif-jtc.jpg`}
+              alt="Building bridges: Improving connectivity in Jurong West with this new overhead bridge"
+            /><br />
+            <button
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              style="width: fit-content; margin-right: auto; margin-left: auto;"
+            >
+              <a
+                href="https://www.straitstimes.com/multimedia/graphics/2024/04/overhead-bridge-jurong-west-singapore/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Home in Focus Link
+              </a>
+            </button>
+            <br /><br />
+            <ul
+              class="circle-bullet-list"
+              style="width: auto; margin-right:auto; margin-left:auto;"
+            >
+              <li>Designed newsletter thumbnail using Adobe Illustrator</li>
+              <li>
+                Aliased with photojournalists to translate their story to online
+                article, and prepare story for publication to The Straits Times
+                site
+              </li>
+            </ul>
+            <!-- <p>
+                Designed newsletter thumbnail using Adobe Illustrator and cover
+                image using Adobe Photoshop, <br /><br />Assisted designers and
+                artists with content input and deployment to publish on The
+                Straits Times
               </p> -->
           </div>
         </div>
