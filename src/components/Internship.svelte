@@ -93,6 +93,11 @@
               Assisted in development of anagram game.
             </p> -->
           <br />
+          <PDFViewer
+            filePath={`${base}/testimonials/xue-li-testimonial.pdf#toolbar=0`}
+            buttonText={"View Testimonial"}
+          />
+          <br /><br />
           <p>
             <b style="color:var(--xpurple);">Skills: </b> Svelte · Adobe Illustrator
             · Adobe XD · Adobe Photoshop · GitHub · UI Design · NodeJS · JavaScript

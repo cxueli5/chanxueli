@@ -2,6 +2,7 @@ import { c as create_ssr_component, v as validate_component, b as add_attribute 
 import { b as base } from "../../../chunks/paths.js";
 import { S as Step } from "../../../chunks/Step.js";
 import { P as PDFViewer, I as ImageViewer } from "../../../chunks/ImageViewer.js";
+const Internship_svelte_svelte_type_style_lang = "";
 const css = {
   code: '.button-container.svelte-4iyu0i.svelte-4iyu0i{display:flex;flex-direction:column;align-items:center;gap:10px}@media(min-width: 768px){.button-container.svelte-4iyu0i.svelte-4iyu0i{flex-direction:row;justify-content:center}}@media screen and (max-width: 768px){}.circle-bullet-list.svelte-4iyu0i.svelte-4iyu0i{list-style-type:none;padding-left:10px;text-align:left}.circle-bullet-list.svelte-4iyu0i li.svelte-4iyu0i::before{content:"\\2022";color:white;font-weight:bold;display:inline-block;width:1em;margin-left:-1em}#internContent.svelte-4iyu0i.svelte-4iyu0i{max-width:600px;margin:0 auto}@media screen and (max-width: 768px){.circle-bullet-list.svelte-4iyu0i.svelte-4iyu0i{padding-left:0px}#internContent.svelte-4iyu0i.svelte-4iyu0i{max-width:100%;padding:0 20px}}li.svelte-4iyu0i.svelte-4iyu0i{padding-bottom:10px}',
   map: null
@@ -34,12 +35,20 @@ const Internship = create_ssr_component(($$result, $$props, $$bindings, slots) =
     default: () => {
       return `<p data-svelte-h="svelte-1fnm1lm"><b style="color: var(--xpeach);">Data Visualisation Developer Intern (The Straits Times Digigraphics)</b>
           |
-          <b style="color: var(--xblue);">Aug 2023 - Apr 2024 (8 months)</b></p> <div id="internContent" class="svelte-4iyu0i" data-svelte-h="svelte-ivrbum"><ul class="circle-bullet-list svelte-4iyu0i"><li class="svelte-4iyu0i">Developed interactive articles using Svelte</li> <li class="svelte-4iyu0i">Create collaterals using Adobe Illustrator and Adobe Photoshop</li> <li class="svelte-4iyu0i">Collaborative work with local and international developers and
+          <b style="color: var(--xblue);">Aug 2023 - Apr 2024 (8 months)</b></p> <div id="internContent" class="svelte-4iyu0i"><ul class="circle-bullet-list svelte-4iyu0i" data-svelte-h="svelte-1w9tc4q"><li class="svelte-4iyu0i">Developed interactive articles using Svelte</li> <li class="svelte-4iyu0i">Create collaterals using Adobe Illustrator and Adobe Photoshop</li> <li class="svelte-4iyu0i">Collaborative work with local and international developers and
               designers</li> <li class="svelte-4iyu0i">Collaborate with designers for UI design, pre-planning stage such
               as: research, ideation and content planning for mockups</li> <li class="svelte-4iyu0i">Practice good use of dynamic programming skills for easier
               maintenance of sites in the long-run</li> <li class="svelte-4iyu0i">Publish and maintain weekly discover articles</li> <li class="svelte-4iyu0i">Led and taught new interns on general workflow and code workflow,
               curated tutorials based on non-developers feedback so that they
-              can understand technical concepts such as how to use GitHub etc.</li></ul>  <br> <p><b style="color:var(--xpurple);">Skills:</b> Svelte · Adobe Illustrator
+              can understand technical concepts such as how to use GitHub etc.</li></ul>  <br> ${validate_component(PDFViewer, "PDFViewer").$$render(
+        $$result,
+        {
+          filePath: `${base}/testimonials/xue-li-testimonial.pdf#toolbar=0`,
+          buttonText: "View Testimonial"
+        },
+        {},
+        {}
+      )} <br> <p data-svelte-h="svelte-q994hd"><b style="color:var(--xpurple);">Skills:</b> Svelte · Adobe Illustrator
             · Adobe XD · Adobe Photoshop · GitHub · UI Design · NodeJS · JavaScript
             · HTML5 · CSS / SCSS · JSON · Figma · Adobe XD · Canva · Microsoft Excel
             · ArchieML (Google Doc Longform) · Interpersonal Skills · Team Collaboration

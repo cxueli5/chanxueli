@@ -1,6 +1,7 @@
 import { c as create_ssr_component, b as add_attribute, v as validate_component } from "../../../chunks/ssr.js";
 import { b as base } from "../../../chunks/paths.js";
 import { S as Step } from "../../../chunks/Step.js";
+const About_svelte_svelte_type_style_lang = "";
 const css = {
   code: "#aboutContent.svelte-9onc2m.svelte-9onc2m{padding-right:30px}@media(max-width: 1024px){ul.svelte-9onc2m li a.svelte-9onc2m{padding:8px 16px}#aboutProfile.svelte-9onc2m.svelte-9onc2m{max-height:30vh}#aboutContent.svelte-9onc2m.svelte-9onc2m{padding-right:0px}}@media(max-width: 768px){ul.svelte-9onc2m li a.svelte-9onc2m{padding:6px 12px}#aboutProfile.svelte-9onc2m.svelte-9onc2m{max-height:50vh}#aboutContent.svelte-9onc2m.svelte-9onc2m{padding-right:0px}}#skillIcon.svelte-9onc2m.svelte-9onc2m{width:fit-content;height:200px;margin-right:auto;margin-left:auto}",
   map: null
