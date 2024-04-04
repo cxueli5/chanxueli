@@ -7,7 +7,7 @@
   let steps = [
     {
       name: "SPH Media",
-      image: `${base}/icons/sph_logo.jpeg`,
+      image: `${base}/icons/sph-new.png`,
     },
     {
       name: "E-Speed Stabilizing Network Technology Pte. Ltd.",
