@@ -44,7 +44,15 @@ const Internship = create_ssr_component(($$result, $$props, $$bindings, slots) =
         $$result,
         {
           filePath: `${base}/testimonials/xue-li-testimonial.pdf#toolbar=0`,
-          buttonText: "View Testimonial"
+          buttonText: "View Testimonial 1"
+        },
+        {},
+        {}
+      )} ${validate_component(PDFViewer, "PDFViewer").$$render(
+        $$result,
+        {
+          filePath: `${base}/testimonials/cxl-reference-letter.pdf#toolbar=0`,
+          buttonText: "View Testimonial 2"
         },
         {},
         {}

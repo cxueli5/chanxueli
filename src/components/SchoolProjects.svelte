@@ -97,9 +97,13 @@
           ></iframe>
         </div>
         <div class="button-container">
+          <PDFViewer
+            filePath={`${base}/certs/TikTokYouthCamp2022.pdf#toolbar=0`}
+            buttonText={"Certificate of Completion"}
+          />
           <ImageViewer
             imagePath={`${base}/testimonials/tiktok_2ndbest.jpeg`}
-            buttonText={"2nd Best User Experience"}
+            buttonText={"Chosen for 2nd Best User Experience"}
           />
         </div>
         <p>
@@ -604,6 +608,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
   }
 
   .button {

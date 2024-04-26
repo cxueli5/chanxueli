@@ -95,7 +95,11 @@
           <br />
           <PDFViewer
             filePath={`${base}/testimonials/xue-li-testimonial.pdf#toolbar=0`}
-            buttonText={"View Testimonial"}
+            buttonText={"View Testimonial 1"}
+          />
+          <PDFViewer
+            filePath={`${base}/testimonials/cxl-reference-letter.pdf#toolbar=0`}
+            buttonText={"View Testimonial 2"}
           />
           <br /><br />
           <p>
