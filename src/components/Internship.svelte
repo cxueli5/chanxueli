@@ -97,7 +97,7 @@
             filePath={`${base}/testimonials/xue-li-testimonial.pdf#toolbar=0`}
             buttonText={"View Testimonial"}
           />
-          <br><br>
+          <br /><br />
           <p>
             <b style="color:var(--xpurple);">Skills: </b> Svelte · Adobe Illustrator
             · Adobe XD · Adobe Photoshop · GitHub · UI Design · NodeJS · JavaScript
@@ -119,13 +119,25 @@
               style="width: fit-content; margin-right: auto; margin-left: auto;"
             >
               <a
+                href="https://www.straitstimes.com/multimedia/graphics/2024/04/lee-hsien-loong-20-years-in-office/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                PM Lee Project Link
+              </a>
+            </button>
+            <!-- <button
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              style="width: fit-content; margin-right: auto; margin-left: auto;"
+            >
+              <a
                 href="https://youtu.be/vIptxoELZXw?si=NMf5zelt0BrpiJGP"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 PM Lee Handover Demo Link (Initial Stage)
               </a>
-            </button>
+            </button> -->
             <br /><br />
             <ul
               class="circle-bullet-list"
@@ -902,6 +914,7 @@
     width: 1em;
     margin-left: -1em;
   }
+
   #internContent {
     max-width: 600px; /* Set the maximum width for the skills section */
     margin: 0 auto;

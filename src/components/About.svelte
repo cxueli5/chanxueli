@@ -1,5 +1,7 @@
 <script>
   import { base } from "$app/paths";
+  import PDFViewer from "./PDFViewer.svelte";
+  import ImageViewer from "./ImageViewer.svelte";
   import Step from "./Step.svelte";
   let steps = [
     {
@@ -20,6 +22,14 @@
     },
     {
       name: "Primary School",
+      icon: "fa-solid fa-graduation-cap",
+    },
+    {
+      name: "Cisco Networking Academy",
+      icon: "fa-solid fa-graduation-cap",
+    },
+    {
+      name: "Codeacademy",
       icon: "fa-solid fa-graduation-cap",
     },
     {
@@ -61,9 +71,16 @@
     >
       <li class="me-2">
         <a
-          href="#myHobbies"
+          href="#myEdu"
           class="inline-block px-3 py-2 rounded-lg hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-white"
-          >Likes</a
+          >Education</a
+        >
+      </li>
+      <li class="me-2">
+        <a
+          href="#myAchievement"
+          class="inline-block px-3 py-2 rounded-lg hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-white"
+          >Certificates</a
         >
       </li>
       <li class="me-2">
@@ -75,16 +92,9 @@
       </li>
       <li class="me-2">
         <a
-          href="#myEdu"
+          href="#myHobbies"
           class="inline-block px-3 py-2 rounded-lg hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-white"
-          >Education</a
-        >
-      </li>
-      <li class="me-2">
-        <a
-          href="#myAchievement"
-          class="inline-block px-3 py-2 rounded-lg hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-white"
-          >Achievements</a
+          >Likes</a
         >
       </li>
     </ul>
@@ -151,113 +161,18 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={`${base}/icons/gmail.svg`} width="30" height="30" alt="Gmail" />
+            <img
+              src={`${base}/icons/gmail.svg`}
+              width="30"
+              height="30"
+              alt="Gmail"
+            />
           </a>
         </div>
       </div>
     </section>
   </section>
   <!-- Tab Content -->
-  <!-- Likes -->
-  <section id="myHobbies">
-    <div
-      class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
-    >
-      <h6 class="text-large sm:text-xl md:text-2xl"></h6>
-      <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">Likes</h3>
-    </div>
-    <br />
-    <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
-      <div class="grid-item">
-        <img src={`${base}/likes/like6.jpeg`} alt="Kpop concert" />
-      </div>
-      <div class="grid-item">
-        <img src={`${base}/likes/like1.jpeg`} alt="Kpop concert" />
-      </div>
-      <div class="grid-item">
-        <img src={`${base}/likes/like2.jpeg`} alt="Kpop concert" />
-      </div>
-      <div class="grid-item">
-        <img src={`${base}/likes/like3.jpeg`} alt="Drawing" />
-      </div>
-      <div class="grid-item">
-        <img src={`${base}/likes/like4.jpeg`} alt="Drawing" />
-      </div>
-      <div class="grid-item">
-        <img src={`${base}/likes/like5.jpeg`} alt="Badminton" />
-      </div>
-    </div>
-  </section>
-
-  <!-- Skills -->
-  <section id="mySkills">
-    <br />
-    <div
-      class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
-    >
-      <h6 class="text-large sm:text-xl md:text-2xl"></h6>
-      <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">Skills</h3>
-    </div>
-    <br />
-    <div class="grid grid-cols-1 md:grid-cols-6 gap-4">
-      <div class="grid-item">
-        <img id="skillIcon" src={`${base}/skills/html.png`} alt="HTML" />
-      </div>
-      <div class="grid-item">
-        <img id="skillIcon" src={`${base}/skills/css.png`} alt="CSS" />
-      </div>
-      <div class="grid-item">
-        <img
-          id="skillIcon"
-          src={`${base}/skills/javascript.png`}
-          alt="Javascript"
-        />
-      </div>
-      <div class="grid-item">
-        <img id="skillIcon" src={`${base}/skills/jquery.png`} alt="jQuery" />
-      </div>
-      <div class="grid-item">
-        <img id="skillIcon" src={`${base}/skills/svelte.png`} alt="svelte" />
-      </div>
-      <div class="grid-item">
-        <img id="skillIcon" src={`${base}/skills/python.png`} alt="python" />
-      </div>
-      <div class="grid-item">
-        <img
-          id="skillIcon"
-          src={`${base}/skills/illustrator.png`}
-          alt="illustrator"
-        />
-      </div>
-      <div class="grid-item">
-        <img
-          id="skillIcon"
-          src={`${base}/skills/photoshop.png`}
-          alt="photoshop"
-        />
-      </div>
-      <div class="grid-item">
-        <img id="skillIcon" src={`${base}/skills/xd.png`} alt="xd" />
-      </div>
-      <div class="grid-item">
-        <img id="skillIcon" src={`${base}/skills/figma.png`} alt="figma" />
-      </div>
-      <div class="grid-item">
-        <img id="skillIcon" src={`${base}/skills/sql.png`} alt="sql" />
-      </div>
-      <div class="grid-item">
-        <img id="skillIcon" src={`${base}/skills/react.png`} alt="react" />
-      </div>
-      <div class="grid-item">
-        <img
-          id="skillIcon"
-          src={`${base}/skills/premire.png`}
-          alt="premiere"
-        />
-      </div>
-    </div>
-  </section>
-
   <!-- Education -->
   <section
     id="myEdu"
@@ -268,7 +183,9 @@
     >
       <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
         <h6 class="text-large sm:text-xl md:text-2xl"></h6>
-        <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">Education</h3>
+        <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+          Education
+        </h3>
       </h3>
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-20 lg:gap-25">
@@ -341,11 +258,46 @@
     >
       <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
         <h6 class="text-large sm:text-xl md:text-2xl"></h6>
-        <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">Achievements</h3>
+        <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+          Certificates
+        </h3>
       </h3>
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-20 lg:gap-25">
       <Step step={steps[5]}>
+        <p>
+          <b style="color: var(--xblue);">Apr 2024</b>
+        </p>
+        <div class="internContent">
+          <p>
+            Cisco Network Academy: Introduction to Cybersecurity
+          </p>
+          <br>
+          <PDFViewer
+            filePath={`${base}/certs/ChanXueLi_CiscoCert.pdf#toolbar=0`}
+            buttonText={"View Certificate"}
+          />
+        </div>
+      </Step>
+      <Step step={steps[6]}>
+        <p>
+          <b style="color: var(--xblue);">Apr 2024</b>
+        </p>
+        <div class="internContent">
+          <button
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              style="width: fit-content; margin-right: auto; margin-left: auto;"
+            >
+              <a
+                href="https://www.codecademy.com/users/chanxueli/achievements"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Codeacademy Profile
+              </a>
+            </button>
+      </Step>
+      <Step step={steps[7]}>
         <p>
           <b style="color: var(--xblue);">Nov 2020</b>
         </p>
@@ -357,7 +309,7 @@
           </p>
         </div>
       </Step>
-      <Step step={steps[6]}>
+      <Step step={steps[8]}>
         <p>
           <b style="color: var(--xblue);">Jan 2018</b>
         </p>
@@ -365,7 +317,7 @@
           <p>Edusave Award for Achievement, Good Leadership and Service</p>
         </div>
       </Step>
-      <Step step={steps[7]}
+      <Step step={steps[9]}
         ><p>
           <b style="color: var(--xblue);">Aug 2017</b>
         </p>
@@ -374,6 +326,102 @@
           <b style="color: var(--xblue);">Silver Award</b>
         </p>
       </Step>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="mySkills">
+    <br />
+    <div
+      class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
+    >
+      <h6 class="text-large sm:text-xl md:text-2xl"></h6>
+      <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">Skills</h3>
+    </div>
+    <br />
+    <div class="grid grid-cols-1 md:grid-cols-6 gap-4">
+      <div class="grid-item">
+        <img id="skillIcon" src={`${base}/skills/html.png`} alt="HTML" />
+      </div>
+      <div class="grid-item">
+        <img id="skillIcon" src={`${base}/skills/css.png`} alt="CSS" />
+      </div>
+      <div class="grid-item">
+        <img
+          id="skillIcon"
+          src={`${base}/skills/javascript.png`}
+          alt="Javascript"
+        />
+      </div>
+      <div class="grid-item">
+        <img id="skillIcon" src={`${base}/skills/jquery.png`} alt="jQuery" />
+      </div>
+      <div class="grid-item">
+        <img id="skillIcon" src={`${base}/skills/svelte.png`} alt="svelte" />
+      </div>
+      <div class="grid-item">
+        <img id="skillIcon" src={`${base}/skills/python.png`} alt="python" />
+      </div>
+      <div class="grid-item">
+        <img
+          id="skillIcon"
+          src={`${base}/skills/illustrator.png`}
+          alt="illustrator"
+        />
+      </div>
+      <div class="grid-item">
+        <img
+          id="skillIcon"
+          src={`${base}/skills/photoshop.png`}
+          alt="photoshop"
+        />
+      </div>
+      <div class="grid-item">
+        <img id="skillIcon" src={`${base}/skills/xd.png`} alt="xd" />
+      </div>
+      <div class="grid-item">
+        <img id="skillIcon" src={`${base}/skills/figma.png`} alt="figma" />
+      </div>
+      <div class="grid-item">
+        <img id="skillIcon" src={`${base}/skills/sql.png`} alt="sql" />
+      </div>
+      <div class="grid-item">
+        <img id="skillIcon" src={`${base}/skills/react.png`} alt="react" />
+      </div>
+      <div class="grid-item">
+        <img id="skillIcon" src={`${base}/skills/premire.png`} alt="premiere" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Likes -->
+  <section id="myHobbies">
+    <div
+      class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
+    >
+      <h6 class="text-large sm:text-xl md:text-2xl"></h6>
+      <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">Likes</h3>
+    </div>
+    <br />
+    <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+      <div class="grid-item">
+        <img src={`${base}/likes/like6.jpeg`} alt="Kpop concert" />
+      </div>
+      <div class="grid-item">
+        <img src={`${base}/likes/like1.jpeg`} alt="Kpop concert" />
+      </div>
+      <div class="grid-item">
+        <img src={`${base}/likes/like2.jpeg`} alt="Kpop concert" />
+      </div>
+      <div class="grid-item">
+        <img src={`${base}/likes/like3.jpeg`} alt="Drawing" />
+      </div>
+      <div class="grid-item">
+        <img src={`${base}/likes/like4.jpeg`} alt="Drawing" />
+      </div>
+      <div class="grid-item">
+        <img src={`${base}/likes/like5.jpeg`} alt="Badminton" />
+      </div>
     </div>
   </section>
 </main>
