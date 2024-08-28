@@ -48,6 +48,7 @@ declare module '$env/static/private' {
 	export const LANG: string;
 	export const LOCALAPPDATA: string;
 	export const LOGONSERVER: string;
+	export const maven: string;
 	export const MAVEN_HOME: string;
 	export const MOSQUITTO_DIR: string;
 	export const NODE: string;
@@ -166,6 +167,7 @@ declare module '$env/dynamic/private' {
 		LANG: string;
 		LOCALAPPDATA: string;
 		LOGONSERVER: string;
+		maven: string;
 		MAVEN_HOME: string;
 		MOSQUITTO_DIR: string;
 		NODE: string;
