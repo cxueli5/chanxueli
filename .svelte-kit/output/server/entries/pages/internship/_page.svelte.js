@@ -28,10 +28,30 @@ const Internship = create_ssr_component(($$result, $$props, $$bindings, slots) =
     {
       name: "Royal T Group Pte. Ltd.",
       image: `${base}/icons/liho.jpeg`
+    },
+    {
+      name: "NUS",
+      image: `${base}/icons/nus.png`
     }
   ];
   $$result.css.add(css);
-  return `${$$result.head += `<!-- HEAD_svelte-gmvvf3_START -->${$$result.title = `<title>Internship</title>`, ""}<!-- HEAD_svelte-gmvvf3_END -->`, ""} <main class="flex flex-col flex-1 p-4"> <section class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative" id="projects"> <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4" data-svelte-h="svelte-1oi87mj"><h6 class="text-large sm:text-xl md:text-2xl">Polytechnic / University</h6> <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl"><span class="poppins text-violet-400">Internship</span> Experience</h3></div> <div class="grid grid-cols-1 lg:grid-cols-1 gap-20 lg:gap-25">${validate_component(Step, "Step").$$render($$result, { step: steps[0] }, {}, {
+  return `${$$result.head += `<!-- HEAD_svelte-gmvvf3_START -->${$$result.title = `<title>Internship</title>`, ""}<!-- HEAD_svelte-gmvvf3_END -->`, ""} <main class="flex flex-col flex-1 p-4"> <section class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative" id="projects"> <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4" data-svelte-h="svelte-dl3d54"><h6 class="text-large sm:text-xl md:text-2xl">Full-time</h6> <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl"><span class="poppins text-violet-400">Working</span> Experience</h3></div> <div class="grid grid-cols-1 lg:grid-cols-1 gap-20 lg:gap-25">${validate_component(Step, "Step").$$render($$result, { step: steps[5] }, {}, {
+    default: () => {
+      return `<p data-svelte-h="svelte-tsobfr"><b style="color: var(--xpeach);">Executive (Contract)</b>
+          |
+          <b style="color: var(--xblue);">Oct 2024 - Apr 2025 (6 months)</b></p> <div id="internContent" class="svelte-11hi266" data-svelte-h="svelte-1lst94r"><ul class="circle-bullet-list svelte-11hi266"><li class="svelte-11hi266">Created and managed customer invoices using Microsoft Excel,
+              collaborating with the finance team to address SAP-related issues,
+              and received commendations for efficient ticket resolution and
+              troubleshooting.</li> <li class="svelte-11hi266">Conducted data cleaning to maintain accurate records and ensure
+              smooth invoice generation.</li> <li class="svelte-11hi266">Supported faculty with course scheduling and managed appointment
+              forms, enhancing overall administrative efficiency.</li> <li class="svelte-11hi266">Updated the NUS CLSLANG website through WordPress, ensuring
+              current and relevant information for stakeholders.</li> <li class="svelte-11hi266">Facilitated undergraduate programs for Bahasa Indonesia, keeping
+              students informed about placement test schedules and course
+              mapping.</li> <li class="svelte-11hi266">Addressed customer inquiries promptly via email and Zoom, ensuring
+              a high standard of customer service.</li> <li class="svelte-11hi266">Coordinated with third-party delivery teams to manage course
+              material logistics, updating customers on delivery status.</li></ul></div>`;
+    }
+  })}</div>  <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4" data-svelte-h="svelte-1oi87mj"><h6 class="text-large sm:text-xl md:text-2xl">Polytechnic / University</h6> <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl"><span class="poppins text-violet-400">Internship</span> Experience</h3></div> <div class="grid grid-cols-1 lg:grid-cols-1 gap-20 lg:gap-25">${validate_component(Step, "Step").$$render($$result, { step: steps[0] }, {}, {
     default: () => {
       return `<p data-svelte-h="svelte-1fnm1lm"><b style="color: var(--xpeach);">Data Visualisation Developer Intern (The Straits Times Digigraphics)</b>
           |

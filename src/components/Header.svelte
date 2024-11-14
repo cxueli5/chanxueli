@@ -7,7 +7,7 @@
   export let tabs = [
     { name: "Home", link: `${base}/`, icon: "fa-home" },
     { name: "Projects", link: `${base}/projects`, icon: "fa-folder" },
-    { name: "Internship", link: `${base}/internship`, icon: "fa-briefcase" },
+    { name: "Jobs/Internship", link: `${base}/internship`, icon: "fa-briefcase" },
     { name: "About Me", link: `${base}/about-me`, icon: "fa-user" },
   ];
 

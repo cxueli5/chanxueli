@@ -25,6 +25,10 @@
       name: "Royal T Group Pte. Ltd.",
       image: `${base}/icons/liho.jpeg`,
     },
+    {
+      name: "NUS",
+      image: `${base}/icons/nus.png`,
+    },
   ];
 </script>
 
@@ -38,6 +42,61 @@
     class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
     id="projects"
   >
+    <!-- Working Experience -->
+    <div
+      class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
+    >
+      <h6 class="text-large sm:text-xl md:text-2xl">Full-time</h6>
+      <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+        <span class="poppins text-violet-400">Working</span> Experience
+      </h3>
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-1 gap-20 lg:gap-25">
+      <Step step={steps[5]}>
+        <p>
+          <b style="color: var(--xpeach);"> Executive (Contract) </b>
+          |
+          <b style="color: var(--xblue);">Oct 2024 - Apr 2025 (6 months)</b>
+        </p>
+
+        <div id="internContent">
+          <ul class="circle-bullet-list">
+            <li>
+              Created and managed customer invoices using Microsoft Excel,
+              collaborating with the finance team to address SAP-related issues,
+              and received commendations for efficient ticket resolution and
+              troubleshooting.
+            </li>
+            <li>
+              Conducted data cleaning to maintain accurate records and ensure
+              smooth invoice generation.
+            </li>
+            <li>
+              Supported faculty with course scheduling and managed appointment
+              forms, enhancing overall administrative efficiency.
+            </li>
+            <li>
+              Updated the NUS CLSLANG website through WordPress, ensuring
+              current and relevant information for stakeholders.
+            </li>
+            <li>
+              Facilitated undergraduate programs for Bahasa Indonesia, keeping
+              students informed about placement test schedules and course
+              mapping.
+            </li>
+            <li>
+              Addressed customer inquiries promptly via email and Zoom, ensuring
+              a high standard of customer service.
+            </li>
+            <li>
+              Coordinated with third-party delivery teams to manage course
+              material logistics, updating customers on delivery status.
+            </li>
+          </ul>
+        </div>
+      </Step>
+    </div>
+
     <!-- Internship -->
     <div
       class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"

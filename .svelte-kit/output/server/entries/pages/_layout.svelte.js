@@ -28,7 +28,7 @@ const Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       icon: "fa-folder"
     },
     {
-      name: "Internship",
+      name: "Jobs/Internship",
       link: `${base}/internship`,
       icon: "fa-briefcase"
     },
