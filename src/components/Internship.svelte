@@ -329,13 +329,14 @@
               class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
               style="width: fit-content; margin-right: auto; margin-left: auto;"
             >
+            <!-- old link -->
               <!-- <a
                 href="https://youtu.be/h2X7KYX63V0?si=TpTIYVaEzzyZ2IBA"
                 target="_blank"
                 rel="noopener noreferrer"
               > -->
               <a
-                href="https://www.straitstimes.com/multimedia/graphics/2024/11/welcome-to-st-food/shops.html"
+                href="https://www.straitstimes.com/multimedia/graphics/2024/11/welcome-to-st-food/index.html"
                 target="_blank"
                 rel="noopener noreferrer"
               >
